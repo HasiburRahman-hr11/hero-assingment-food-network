@@ -87,13 +87,19 @@ section {
     margin-bottom: 50px;
 }
 
+.intro-subtitle span {
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+}
+
 .button {
-    padding: 12px 25px;
+    padding: 15px 30px;
     background-image: linear-gradient(to right, #FE4A2E, #FC8F49);
     border-radius: 50px;
     color: #fff;
     font-weight: normal;
     box-shadow: rgba(254, 74, 46, 0.4) 0px 10px 25px 0px;
+    font-size: 18px;
 }
 
 .about-section {
