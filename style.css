@@ -165,6 +165,7 @@ section {
     border-radius: 30px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
     text-align: center;
+    margin: 0 20px;
 }
 
 h2.count {
