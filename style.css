@@ -30,7 +30,7 @@ img {
 
 .logo h2 {
     color: #fff;
-    font-family: Arial, sans-serif;
+    font-family: 'Lobster', cursive;
 }
 
 .menu ul {
@@ -68,8 +68,9 @@ section {
 
 .intro-title {
     font-size: 70px;
-    font-weight: 800;
+    font-weight: 700;
     color: #575757;
+    margin-bottom: 30px;
 }
 
 .color-diff {
