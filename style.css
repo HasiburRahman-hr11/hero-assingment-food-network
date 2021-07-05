@@ -179,3 +179,20 @@ p.count-text {
     margin-top: 5px;
     font-size: 14px;
 }
+
+#footer {
+    background: #0A0D16;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.footer-logo h2 {
+    color: #5A5A5A;
+}
+
+#footer .text-small {
+    color: #ccc;
+    font-size: 15px;
+}
