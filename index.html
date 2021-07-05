@@ -8,26 +8,32 @@
     <title>Food Network</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
+<!-- TODO: add link in buttons , replace lorem text -->
 
 <body>
     <div class="content-wrapper">
         <!-- Header Section -->
         <div id="header-section">
             <div class="container">
-                <div class="logo">
-                    <h2>HOT MEAL</h2>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Recipie</a></li>
-                        <li><a href="#">Order</a></li>
-                        <li><a href="#">Book</a></li>
-                    </ul>
+                <div class="header-wrapper">
+                    <div class="logo">
+                        <a href="#">
+                            <h2>HOT MEAL</h2>
+                        </a>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Recipie</a></li>
+                            <li><a href="#">Order</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -36,17 +42,61 @@
         <!-- Banner Section -->
         <section class="banner-section">
             <div class="container">
-                <div class="col-2">
-                    <h1 class="intro-title">
-                        <span class="color-diff">Skip</span> The Diet, Just Eat Healthy With Hot Meal
-                    </h1>
-                    <p>Forget about diet. Keep eating healthy food with Hot Meal. We assure 100% hygenic food.</p>
-                </div>
-                <div class="col-2">
-                    <div class="banner-img">
-                        <img src="images/banner-img.png" alt="Lady with Salad">
+                <div class="row">
+                    <div class="col-2">
+                        <div class="banner-content">
+                            <h1 class="intro-title">
+                                <span class="color-diff">Skip</span> The Diet, <br> Just Eat Healthy With Hot Meal
+                            </h1>
+                            <p class="text-small intro-subtitle">Forget about diet. Keep eating healthy food with Hot
+                                Meal. We assure
+                                100%
+                                hygenic and
+                                delicious food.</p>
+
+                            <a href="#" class="button">Order Now</a>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="banner-img">
+                            <img src="images/banner-img.png" alt="Lady with Salad">
+                        </div>
                     </div>
                 </div>
+            </div>
+        </section>
+
+
+        <section class="about-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <div class="about-image">
+                            <img src="images/about-image.png" alt="About Image">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="about-content">
+                            <h2 class="section-title">About Us</h2>
+                            <p class="text-small ">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores nemo inventore quo,
+                                at deserunt sapiente ad repellendus, saepe necessitatibus illum eius nobis delectus modi
+                                commodi, provident optio culpa eligendi officiis laudantium facere accusantium sequi
+                                labore. Provident delectus eveniet laborum placeat autem hic officia sit, fugiat at
+                                dicta deserunt tenetur itaque?
+                            </p>
+
+                            <a href="#" class="button">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="recipie-section">
+            <div class="container">
+
             </div>
         </section>
 
